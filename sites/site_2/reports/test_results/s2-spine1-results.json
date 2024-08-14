@@ -177,10 +177,27 @@
       "interfaces"
     ],
     "description": "Verifies the status of the provided interfaces.",
-    "result": "failure",
-    "messages": [
-      "The following interface(s) are not configured: ['Loopback0']"
+    "result": "success",
+    "custom_field": "Interface Ethernet7 - P2P_LINK_TO_WANCORE_Ethernet2 = 'up'"
+  },
+  {
+    "name": "s2-spine1",
+    "test": "VerifyInterfacesStatus",
+    "categories": [
+      "interfaces"
     ],
+    "description": "Verifies the status of the provided interfaces.",
+    "result": "success",
+    "custom_field": "Interface Ethernet8 - P2P_LINK_TO_WANCORE_Ethernet2 = 'up'"
+  },
+  {
+    "name": "s2-spine1",
+    "test": "VerifyInterfacesStatus",
+    "categories": [
+      "interfaces"
+    ],
+    "description": "Verifies the status of the provided interfaces.",
+    "result": "success",
     "custom_field": "Interface Loopback0 - Router_ID = 'up'"
   },
   {
@@ -190,10 +207,7 @@
       "interfaces"
     ],
     "description": "Verifies the status of the provided interfaces.",
-    "result": "failure",
-    "messages": [
-      "The following interface(s) are not configured: ['Port-Channel1']"
-    ],
+    "result": "success",
     "custom_field": "Interface Port-Channel1 - MLAG_PEER_s2-spine2_Po1 = 'up'"
   },
   {
@@ -203,10 +217,7 @@
       "interfaces"
     ],
     "description": "Verifies the status of the provided interfaces.",
-    "result": "failure",
-    "messages": [
-      "The following interface(s) are not configured: ['Port-Channel2']"
-    ],
+    "result": "success",
     "custom_field": "Interface Port-Channel2 - RACK1_Po2 = 'up'"
   },
   {
@@ -216,10 +227,7 @@
       "interfaces"
     ],
     "description": "Verifies the status of the provided interfaces.",
-    "result": "failure",
-    "messages": [
-      "The following interface(s) are not configured: ['Port-Channel4']"
-    ],
+    "result": "success",
     "custom_field": "Interface Port-Channel4 - RACK2_Po2 = 'up'"
   },
   {
@@ -229,10 +237,27 @@
       "interfaces"
     ],
     "description": "Verifies the status of the provided interfaces.",
-    "result": "failure",
-    "messages": [
-      "The following interface(s) are not configured: ['Vlan4093']"
+    "result": "success",
+    "custom_field": "Interface Vlan30 - Thirty = 'up'"
+  },
+  {
+    "name": "s2-spine1",
+    "test": "VerifyInterfacesStatus",
+    "categories": [
+      "interfaces"
     ],
+    "description": "Verifies the status of the provided interfaces.",
+    "result": "success",
+    "custom_field": "Interface Vlan40 - Forty = 'up'"
+  },
+  {
+    "name": "s2-spine1",
+    "test": "VerifyInterfacesStatus",
+    "categories": [
+      "interfaces"
+    ],
+    "description": "Verifies the status of the provided interfaces.",
+    "result": "success",
     "custom_field": "Interface Vlan4093 - MLAG_PEER_L3_PEERING = 'up'"
   },
   {
@@ -242,10 +267,7 @@
       "interfaces"
     ],
     "description": "Verifies the status of the provided interfaces.",
-    "result": "failure",
-    "messages": [
-      "The following interface(s) are not configured: ['Vlan4094']"
-    ],
+    "result": "success",
     "custom_field": "Interface Vlan4094 - MLAG_PEER = 'up'"
   },
   {
@@ -255,10 +277,7 @@
       "mlag"
     ],
     "description": "Verifies the health status of the MLAG configuration.",
-    "result": "skipped",
-    "messages": [
-      "MLAG is disabled"
-    ]
+    "result": "success"
   },
   {
     "name": "s2-spine1",

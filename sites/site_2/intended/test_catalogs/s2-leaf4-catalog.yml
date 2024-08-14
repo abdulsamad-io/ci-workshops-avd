@@ -74,6 +74,12 @@ anta.tests.interfaces:
       custom_field: Interface Ethernet3 - S2-SPINE2_Ethernet5 = 'up'
 - VerifyInterfacesStatus:
     interfaces:
+    - name: Ethernet4
+      status: up
+    result_overwrite:
+      custom_field: Interface Ethernet4 - s2-host2_eth2 = 'up'
+- VerifyInterfacesStatus:
+    interfaces:
     - name: Port-Channel1
       status: up
     result_overwrite:
@@ -84,6 +90,12 @@ anta.tests.interfaces:
       status: up
     result_overwrite:
       custom_field: Interface Port-Channel2 - SPINES_Po4 = 'up'
+- VerifyInterfacesStatus:
+    interfaces:
+    - name: Port-Channel4
+      status: up
+    result_overwrite:
+      custom_field: Interface Port-Channel4 - s2-host2 = 'up'
 - VerifyInterfacesStatus:
     interfaces:
     - name: Vlan4094
